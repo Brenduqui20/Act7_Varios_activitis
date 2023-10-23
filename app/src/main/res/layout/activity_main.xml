@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+        <!-- Texto "Operaciones" centrado en la parte superior -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Operaciones"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Linear Layout para los primeros tres botones con margen inferior -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <!-- Botón para la Operación 1 con margen a la derecha y abajo -->
+        <Button
+            android:id="@+id/btnVOL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="VOLUMEN"
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:backgroundTint="#FFA07A"
+            android:textStyle="bold" />
+
+        <!-- Botón para la Operación 2 con margen a la derecha y abajo -->
+        <Button
+            android:id="@+id/btnCUA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:textSize="16sp"
+            android:text="CUADRADO"
+            android:textColor="#000000"
+            android:backgroundTint="#FFA07A"
+        android:textStyle="bold" />
+
+        <!-- Botón para la Operación 3 con margen inferior -->
+        <Button
+            android:id="@+id/btnTRI"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="TRIANGULO"
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:backgroundTint="#FFA07A"
+        android:textStyle="bold" />
+    </LinearLayout>
+
+    <!-- Linear Layout para los últimos dos botones con margen superior -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp">
+
+        <!-- Botón para la Operación 4 con margen a la derecha y arriba -->
+        <Button
+            android:id="@+id/btnCONV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"
+            android:textSize="20sp"
+            android:text="CONVERSOR"
+            android:backgroundTint="#FFA07A"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <!-- Botón para la Operación 5 con margen a la derecha y arriba -->
+        <Button
+            android:id="@+id/btnROM"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8dp"
+            android:textSize="20sp"
+            android:layout_marginTop="8dp"
+            android:text="ROMBO"
+            android:backgroundTint="#FFA07A"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+    </LinearLayout>
+</LinearLayout>
